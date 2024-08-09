@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #14a6a6;
+  color: #f2f2f2;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  width: 100vw;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  bottom: 0;
+  background-color: #011c26;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+nav ul li a:hover {
+  font-size: 1.02rem;
+  color: #14a6a6;
+}
+.left {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 60px 0;
+}
+.firstSection > div {
+  width: 30%;
+}
+.leftSection {
+  font-size: 2rem;
+  font-weight: 400;
+  /* margin: 50px 0; */
+}
+.name {
+  color: #011c26;
+  font-weight: 700;
+}
+.rightSection img {
+  height: 400px;
+}
+#element {
+  color: #011c26;
+  font-weight: 700;
+}
+main hr {
+  border: 0;
+  background: #aeb7bf;
+  height: 1.2px;
+  margin: 40px 90px;
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  /* height: ; */
+}
+.thirdSection span {
+  color: #f2f2f2;
+  margin-bottom: 0;
+}
+.secondSection h1,
+.thirdSection h1 {
+  color: #011c26;
+  font-size: 2rem;
+}
+.about-text {
+  font-size: 1.2rem;
+  color: #f2f2f2;
+  margin: 15px 0;
+}
+.thirdSection {
+  max-width: 80vw;
+  margin: auto;
+}
+.projects {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80vw;
+}
+.project-image {
+  display: inline-block;
+  text-align: center;
+}
+.projects img {
+  margin: 20px 0;
+}
+.project-des {
+  margin-top: -10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f2f2f2;
+  text-shadow: 2px 2px 4px #011c2680;
+}
+.footer {
+  background-color: #011c26;
+  padding: 20px 0 30px 0;
+}
+.footer h1 {
+  color: #f2f2f2;
+  font-size: 2rem;
+}
+.contact {
+  max-width: 80vw;
+  margin: auto;
+  text-align: center;
+
+}
+.contact-info {
+    margin: 15px 0;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.rights{
+    margin: 10px 0 40px 0;
+}
